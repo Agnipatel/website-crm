@@ -79,7 +79,7 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
+      {/* Mobile to Menu  */}
       <div
         className={`overflow-hidden transition-all duration-300 md:hidden ${
           mobileMenu ? "max-h-96" : "max-h-0"
@@ -105,7 +105,7 @@ export default function Navbar() {
               }}
               className="mt-2 rounded-xl bg-[#22c55e] py-3 font-medium text-white transition duration-300 hover:bg-[#16a34a]"
             >
-              Get Free Audit
+              Get Free Audits
             </button>
           </div>
         </div>
