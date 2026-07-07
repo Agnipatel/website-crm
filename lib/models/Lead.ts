@@ -1,4 +1,4 @@
-import mongoose, {
+import {
   Schema,
   Document,
   model,

@@ -151,7 +151,7 @@ export default function IVFAuditSection() {
               onChange={handleChange}
               type="email"
               required
-              placeholder="yourname@clinic.com"
+              placeholder="yourname@Fintech.com"
               className="h-14 w-full rounded-xl border border-white/10 bg-black/40 px-5 text-white placeholder:text-gray-500 outline-none transition-all duration-300 focus:border-green-500"
             />
 
@@ -160,7 +160,7 @@ export default function IVFAuditSection() {
               value={formData.location}
               onChange={handleChange}
               type="text"
-              placeholder="Clinic Location"
+              placeholder="Fintech Location"
               className="h-14 w-full rounded-xl border border-white/10 bg-black/40 px-5 text-white placeholder:text-gray-500 outline-none transition-all duration-300 focus:border-green-500"
             />
 
@@ -169,7 +169,7 @@ export default function IVFAuditSection() {
               value={formData.website}
               onChange={handleChange}
               type="url"
-              placeholder="https://yourclinic.com"
+              placeholder="https://yourFintech.com"
               className="h-14 w-full rounded-xl border border-white/10 bg-black/40 px-5 text-white placeholder:text-gray-500 outline-none transition-all duration-300 focus:border-green-500"
             />
 
@@ -187,7 +187,7 @@ export default function IVFAuditSection() {
               value={formData.message}
               onChange={handleChange}
               rows={6}
-              placeholder="Tell us about your clinic goals, challenges, and growth plans..."
+              placeholder="Tell us about your Fintech goals, challenges, and growth plans..."
               className="w-full rounded-xl border border-white/10 bg-black/40 px-5 py-4 text-white placeholder:text-gray-500 outline-none transition-all duration-300 focus:border-green-500"
             />
 
@@ -217,11 +217,11 @@ export default function IVFAuditSection() {
             >
               {loading
                 ? "Submitting..."
-                : "Get Your Clinic Audit"}
+                : "Get Your Fintech Audit"}
             </button>
 
             <p className="text-center text-sm text-gray-400">
-              No spam. Ever. Well analyze your clinic and contact you within
+              No spam. Ever. Well analyze your Fintech and contact you within
               24 hours.
             </p>
 

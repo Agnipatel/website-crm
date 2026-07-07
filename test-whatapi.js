@@ -15,7 +15,7 @@ async function testAuth(authHeader) {
     });
     const text = await res.text();
     console.log(`Auth: ${JSON.stringify(authHeader)} -> Status: ${res.status}, Body: ${text.substring(0, 100)}`);
-  } catch (e) {}
+  } catch {}
 }
 
 async function run() {

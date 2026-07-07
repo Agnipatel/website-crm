@@ -23,6 +23,7 @@ export async function GET() {
       },
       { status: 200 }
     );
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (error: any) {
     console.error("GET Leads Error:", error);
 
@@ -224,6 +225,7 @@ export async function POST(req: Request) {
       },
       { status: 201 }
     );
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (error: any) {
     console.error("POST Lead Error:", error);
 

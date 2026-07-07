@@ -3,7 +3,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { usePopup } from "@/components/PopupProvider";
-import Image from "next/image";
+
 
 export default function About() {
   const { setIsPopupOpen } = usePopup();
@@ -32,7 +32,7 @@ export default function About() {
           <div>
             <h2 className="text-3xl font-bold mb-4">Who We Are</h2>
             <p className="text-slate-400 mb-6">
-              PANDAeCe was founded with a single mission: to deliver measurable results. We don't just focus on vanity metrics; we care about your ROI and revenue growth. Our team of experts specializes in Meta Ads, Google Ads, SEO, and full-stack marketing automation.
+              PANDAeCe was founded with a single mission: to deliver measurable results. We don&apos;t just focus on vanity metrics; we care about your ROI and revenue growth. Our team of experts specializes in Meta Ads, Google Ads, SEO, and full-stack marketing automation.
             </p>
             <button
               onClick={() => setIsPopupOpen(true)}

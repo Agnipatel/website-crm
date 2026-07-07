@@ -19,7 +19,7 @@ export default function ThankYouPage() {
             Thank You!
           </h1>
           <p className="text-xl text-slate-400 mb-10">
-            We've received your request for a free audit. One of our performance marketing specialists will be in touch with you shortly.
+            We&apos;ve received your request for a free audit. One of our performance marketing specialists will be in touch with you shortly.
           </p>
           <Link
             href="/"

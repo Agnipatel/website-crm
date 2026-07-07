@@ -35,16 +35,16 @@ export default function TestimonialsPage() {
             Client <span className="text-green-500">Testimonials</span>
           </h1>
           <p className="text-lg text-slate-400 max-w-2xl mx-auto">
-            Don't just take our word for it. Here's what our partners have to say about working with us.
+            Don&apos;t just take our word for it. Here&apos;s what our partners have to say about working with us.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           {testimonials.map((test, index) => (
             <div key={index} className="bg-slate-900 border border-slate-800 p-8 rounded-2xl relative">
-              <div className="text-green-500 text-6xl absolute top-4 left-6 opacity-20">"</div>
+              <div className="text-green-500 text-6xl absolute top-4 left-6 opacity-20">&quot;</div>
               <p className="text-slate-300 mb-8 relative z-10 text-lg italic">
-                "{test.quote}"
+                &quot;{test.quote}&quot;
               </p>
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center border border-slate-700">

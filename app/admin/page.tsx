@@ -24,17 +24,6 @@ export default function AdminDashboard() {
 
   const router = useRouter();
 
-  useEffect(() => {
-    const isAdmin = localStorage.getItem("isAdmin");
-
-    if (isAdmin !== "true") {
-      router.push("/admin/login");
-      return;
-    }
-
-    fetchLeads();
-  }, [router]);
-
   const fetchLeads = async () => {
     try {
       const res = await fetch("/api/leads");
@@ -51,6 +40,17 @@ export default function AdminDashboard() {
       setLoading(false);
     }
   };
+
+  useEffect(() => {
+    const isAdmin = localStorage.getItem("isAdmin");
+
+    if (isAdmin !== "true") {
+      router.push("/admin/login");
+      return;
+    }
+
+    fetchLeads();
+  }, [router]);
 
   const handleLogout = () => {
     localStorage.removeItem("isAdmin");
