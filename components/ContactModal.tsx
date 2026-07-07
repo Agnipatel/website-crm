@@ -211,7 +211,7 @@ export default function ContactModal() {
                       type="email"
                       name="email"
                       required
-                      placeholder="yourname@Fintech.com"
+                      placeholder="yourname@website.com"
                       className={inputClass}
                     />
 
@@ -225,7 +225,7 @@ export default function ContactModal() {
                     {/* Website */}
                     <input
                       name="website"
-                      placeholder="https://yourFintech.com"
+                      placeholder="https://yourwebsite.com"
                       className={inputClass}
                     />
 

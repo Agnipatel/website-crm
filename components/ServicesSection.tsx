@@ -15,6 +15,43 @@ import {
 import { usePopup } from '@/components/PopupProvider';
 
 const services = [
+
+  {
+    icon: Globe,
+    title: "Website Development",
+    description:
+      "Get a website engineered to convert—not just look good.",
+    features: [
+      "Fast & mobile-optimized",
+      "Conversion-focused layouts",
+      "Custom industry-specific design",
+      "CRM-ready integrations",
+    ],
+  },
+   {
+    icon: Database,
+    title: "CRM Implementation",
+    description:
+      "Centralize every lead and streamline your sales workflow.",
+    features: [
+      "Real-time website sync",
+      "Automated lead routing",
+      "Zero manual data entry",
+      "HubSpot, GHL & Custom CRM",
+    ],
+  },
+   {
+    icon: Bot,
+    title: "Marketing Automation",
+    description:
+      "Nurture leads automatically from first click to closed deal.",
+    features: [
+      "Email automation",
+      "Behavior-triggered journeys",
+      "Instant lead follow-up",
+      "Less manual work",
+    ],
+  },
   {
     icon: Search,
     title: "SEO & AI Visibility",
@@ -51,42 +88,9 @@ const services = [
       "Scale proven campaigns backed by data",
     ],
   },
-  {
-    icon: Globe,
-    title: "Website Development",
-    description:
-      "Get a website engineered to convert—not just look good.",
-    features: [
-      "Fast & mobile-optimized",
-      "Conversion-focused layouts",
-      "Custom industry-specific design",
-      "CRM-ready integrations",
-    ],
-  },
-  {
-    icon: Database,
-    title: "CRM Implementation",
-    description:
-      "Centralize every lead and streamline your sales workflow.",
-    features: [
-      "Real-time website sync",
-      "Automated lead routing",
-      "Zero manual data entry",
-      "HubSpot, GHL & Custom CRM",
-    ],
-  },
-  {
-    icon: Bot,
-    title: "Marketing Automation",
-    description:
-      "Nurture leads automatically from first click to closed deal.",
-    features: [
-      "Email automation",
-      "Behavior-triggered journeys",
-      "Instant lead follow-up",
-      "Less manual work",
-    ],
-  },
+  
+ 
+ 
   {
     icon: BarChart3,
     title: "Analytics & Tracking",
@@ -199,7 +203,7 @@ export default function ServicesSection() {
         <div className="mt-20 flex justify-center">
           <button  onClick={() => setIsPopupOpen(true)} className="group rounded-xl bg-green-600 px-10 py-5 text-lg font-semibold text-black transition-all duration-300 hover:bg-green-600 hover:scale-105">
             <span className="flex items-center gap-3">
-              Only Few Spots Left: Apply Before July 10th
+              Only Few Spots Left: Apply Before July 20th
               <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
             </span>
           </button>

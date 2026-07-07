@@ -78,7 +78,7 @@ export default function IVFAuditSection() {
         {/* Heading */}
         <div className="mx-auto max-w-5xl text-center">
           <span className="inline-flex rounded-full border border-green-500/20 bg-green-500/10 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-green-400 sm:text-sm">
-            ● Free Fintech Marketing Audit
+            ● Free website Marketing Audit
           </span>
 
           <h2 className="mt-6 text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-6xl">
@@ -151,7 +151,7 @@ export default function IVFAuditSection() {
               onChange={handleChange}
               type="email"
               required
-              placeholder="yourname@Fintech.com"
+              placeholder="yourname@website.com"
               className="h-14 w-full rounded-xl border border-white/10 bg-black/40 px-5 text-white placeholder:text-gray-500 outline-none transition-all duration-300 focus:border-green-500"
             />
 
@@ -160,7 +160,7 @@ export default function IVFAuditSection() {
               value={formData.location}
               onChange={handleChange}
               type="text"
-              placeholder="Fintech Location"
+              placeholder="website Location"
               className="h-14 w-full rounded-xl border border-white/10 bg-black/40 px-5 text-white placeholder:text-gray-500 outline-none transition-all duration-300 focus:border-green-500"
             />
 
@@ -169,7 +169,7 @@ export default function IVFAuditSection() {
               value={formData.website}
               onChange={handleChange}
               type="url"
-              placeholder="https://yourFintech.com"
+              placeholder="https://yourwebsite.com"
               className="h-14 w-full rounded-xl border border-white/10 bg-black/40 px-5 text-white placeholder:text-gray-500 outline-none transition-all duration-300 focus:border-green-500"
             />
 
@@ -187,7 +187,7 @@ export default function IVFAuditSection() {
               value={formData.message}
               onChange={handleChange}
               rows={6}
-              placeholder="Tell us about your Fintech goals, challenges, and growth plans..."
+              placeholder="Tell us about your website goals, challenges, and growth plans..."
               className="w-full rounded-xl border border-white/10 bg-black/40 px-5 py-4 text-white placeholder:text-gray-500 outline-none transition-all duration-300 focus:border-green-500"
             />
 
@@ -217,11 +217,11 @@ export default function IVFAuditSection() {
             >
               {loading
                 ? "Submitting..."
-                : "Get Your Fintech Audit"}
+                : "Get Your website Audit"}
             </button>
 
             <p className="text-center text-sm text-gray-400">
-              No spam. Ever. Well analyze your Fintech and contact you within
+              No spam. Ever. Well analyze your website and contact you within
               24 hours.
             </p>
 
