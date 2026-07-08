@@ -25,7 +25,7 @@ const faqs = [
     question:
       "How do you track post-click activity, like form fills and booked calls?",
     answer:
-      "We establish deep-funnel event attribution tracking that links your website traffic data directly to your CRM. This ensures your campaigns are optimized for booked calls and closed deals—not just surface-level clicks.",
+      "We establish deep-funnel event attribution tracking that links your website traffic data directly to your CRM. This ensure your campaigns are optimized for booked calls and closed deals—not just surface-level clicks.",
   },
   {
     question:
