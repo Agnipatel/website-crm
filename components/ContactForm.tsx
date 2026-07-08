@@ -77,19 +77,19 @@ export default function IVFAuditSection() {
 
         {/* Heading */}
         <div className="mx-auto max-w-5xl text-center">
-          <span className="inline-flex rounded-full border border-green-500/20 bg-green-500/10 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-green-400 sm:text-sm">
-            ● Free website Marketing Audit
-          </span>
+
 
           <h2 className="mt-6 text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-6xl">
-           Find Out Why Users Choose Other 
+            Find Out Why Customers Choose Other
+
             <span className="block text-green-500">
-              Financial Platforms
+              Businesses Over Yours
             </span>
           </h2>
 
           <p className="mx-auto mt-6 max-w-4xl text-base leading-7 text-gray-300 sm:text-lg sm:leading-8">
-        Our performance marketing specialists will identify structural leakages in your acquisition funnel and provide actionable strategies to decrease customer acquisition cost (CAC).
+            Our growth specialists will identify structural leakages in your website and lead-capture process and provide actionable strategies to decrease your customer acquisition cost (CAC).
+
           </p>
         </div>
 
@@ -151,7 +151,7 @@ export default function IVFAuditSection() {
               onChange={handleChange}
               type="email"
               required
-              placeholder="yourname@website.com"
+              placeholder="gmail"
               className="h-14 w-full rounded-xl border border-white/10 bg-black/40 px-5 text-white placeholder:text-gray-500 outline-none transition-all duration-300 focus:border-green-500"
             />
 
@@ -160,7 +160,7 @@ export default function IVFAuditSection() {
               value={formData.location}
               onChange={handleChange}
               type="text"
-              placeholder="website Location"
+              placeholder="  Location"
               className="h-14 w-full rounded-xl border border-white/10 bg-black/40 px-5 text-white placeholder:text-gray-500 outline-none transition-all duration-300 focus:border-green-500"
             />
 
@@ -169,7 +169,7 @@ export default function IVFAuditSection() {
               value={formData.website}
               onChange={handleChange}
               type="url"
-              placeholder="https://yourwebsite.com"
+              placeholder="website"
               className="h-14 w-full rounded-xl border border-white/10 bg-black/40 px-5 text-white placeholder:text-gray-500 outline-none transition-all duration-300 focus:border-green-500"
             />
 
@@ -178,7 +178,7 @@ export default function IVFAuditSection() {
               value={formData.source}
               onChange={handleChange}
               type="text"
-              placeholder="How Did You Hear About Us?"
+              placeholder="How Did You Hear About Us?(Google Search, Meta Ads, LinkedIn, Referral)"
               className="h-14 w-full rounded-xl border border-white/10 bg-black/40 px-5 text-white placeholder:text-gray-500 outline-none transition-all duration-300 focus:border-green-500"
             />
 

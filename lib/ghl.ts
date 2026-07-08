@@ -43,12 +43,15 @@ export async function createGHLContacts(data: {
     console.log("Payload");
     console.log(JSON.stringify(payload, null, 2));
 
+    const apiKey = process.env.GHL_API_KEY || "";
+
+    // pit- prefixed keys are Private Integration Tokens — use Bearer auth
     const response = await fetch(
       "https://services.leadconnectorhq.com/contacts/",
       {
         method: "POST",
         headers: {
-          Authorization: `Bearer ${process.env.GHL_API_KEY}`,
+          Authorization: `Bearer ${apiKey}`,
           Version: "2021-07-28",
           "Content-Type": "application/json",
         },
@@ -58,8 +61,12 @@ export async function createGHLContacts(data: {
 
     const result = await response.json();
 
-    console.log("Status:", response.status);
-    console.log(result);
+    console.log("GHL Status:", response.status);
+    if (!response.ok) {
+      console.error("❌ GHL API Error Response:", JSON.stringify(result, null, 2));
+    } else {
+      console.log("GHL Result:", result);
+    }
 
     return result;
   } catch (error) {

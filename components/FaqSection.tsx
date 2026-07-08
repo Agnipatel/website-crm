@@ -74,10 +74,10 @@ export default function FAQSection() {
             </span>
           </h2>
 
-          <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-400">
+          {/* <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-400">
             Everything you need to know before partnering with us to build your
             website, CRM, and scalable marketing systems.
-          </p>
+          </p> */}
         </div>
 
         {/* Accordion */}
