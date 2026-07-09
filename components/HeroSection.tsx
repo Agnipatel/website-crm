@@ -122,7 +122,7 @@ export default function HeroSection() {
             transition={{ duration: 0.6 }}
             className="inline-flex items-center rounded-full border border-green-400/40 bg-white/10 px-5 py-2 text-sm font-semibold text-green-400 backdrop-blur-md"
           >
-            🚀 Websites & CRM Systems Work as One
+           Websites & CRM Systems Work as One
           </motion.div>
 
           {/* Heading */}

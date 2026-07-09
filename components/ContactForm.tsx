@@ -151,7 +151,7 @@ export default function IVFAuditSection() {
               onChange={handleChange}
               type="email"
               required
-              placeholder="gmail"
+              placeholder="email"
               className="h-14 w-full rounded-xl border border-white/10 bg-black/40 px-5 text-white placeholder:text-gray-500 outline-none transition-all duration-300 focus:border-green-500"
             />
 

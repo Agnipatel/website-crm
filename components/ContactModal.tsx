@@ -211,7 +211,7 @@ export default function ContactModal() {
                       type="email"
                       name="email"
                       required
-                      placeholder="gmail"
+                      placeholder="email"
                       className={inputClass}
                     />
 

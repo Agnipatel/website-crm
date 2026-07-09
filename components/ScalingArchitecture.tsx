@@ -54,7 +54,7 @@ export default function ScalingArchitecture() {
         <div className="mx-auto max-w-4xl text-center">
 
           <span className="rounded-full border border-green-500/30 bg-blue-500/10 px-5 py-2 text-sm font-semibold text-green-400">
-            🚀 Our Proven Growth Framework
+             Our Proven Growth Framework
           </span>
 
           <h2 className="mt-8 text-4xl font-bold text-white md:text-6xl">
